@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B49354D1AA1095C006DC324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49354C1AA1095C006DC324 /* AppDelegate.swift */; };
-		0B49354F1AA1095C006DC324 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B49354E1AA1095C006DC324 /* GameScene.sks */; };
-		0B4935511AA1095C006DC324 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935501AA1095C006DC324 /* GameScene.swift */; };
-		0B4935531AA1095C006DC324 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935521AA1095C006DC324 /* GameViewController.swift */; };
-		0B4935561AA1095C006DC324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4935541AA1095C006DC324 /* Main.storyboard */; };
-		0B4935581AA1095C006DC324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4935571AA1095C006DC324 /* Images.xcassets */; };
-		0B49355B1AA1095C006DC324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4935591AA1095C006DC324 /* LaunchScreen.xib */; };
-		0B4935671AA1095D006DC324 /* FatsoRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935661AA1095D006DC324 /* FatsoRunTests.swift */; };
+		0B1CC9451AA12E29004D0E70 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CC9441AA12E29004D0E70 /* CoreData.framework */; };
+		0B1CC9471AA12E3C004D0E70 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CC9461AA12E3C004D0E70 /* libz.dylib */; };
+		0B1CC9491AA12E4C004D0E70 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CC9481AA12E4C004D0E70 /* libsqlite3.dylib */; };
+		0B1CC9571AA12E6D004D0E70 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CC9551AA12E6D004D0E70 /* libAdIdAccess.a */; };
+		0B1CC9581AA12E6D004D0E70 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CC9561AA12E6D004D0E70 /* libGoogleAnalyticsServices.a */; };
+		0B1CC9601AA1E0A9004D0E70 /* APIKeys.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B1CC95D1AA1DFFC004D0E70 /* APIKeys.plist */; };
+		0B4935741AA10A0A006DC324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935711AA10A0A006DC324 /* AppDelegate.swift */; };
+		0B4935751AA10A0A006DC324 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935721AA10A0A006DC324 /* GameScene.swift */; };
+		0B4935761AA10A0A006DC324 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935731AA10A0A006DC324 /* GameViewController.swift */; };
+		0B49357E1AA10AA4006DC324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4935781AA10AA4006DC324 /* LaunchScreen.xib */; };
+		0B49357F1AA10AA4006DC324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B49357A1AA10AA4006DC324 /* Main.storyboard */; };
+		0B4935801AA10AA4006DC324 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B49357C1AA10AA4006DC324 /* GameScene.sks */; };
+		0B4935811AA10AA4006DC324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B49357D1AA10AA4006DC324 /* Images.xcassets */; };
+		0B4935871AA10B45006DC324 /* FatsoRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935861AA10B45006DC324 /* FatsoRunTests.swift */; };
+		0B49358D1AA1102F006DC324 /* libFlurry_6.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49358C1AA1102F006DC324 /* libFlurry_6.2.0.a */; };
+		0B49358F1AA11051006DC324 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49358E1AA11051006DC324 /* Security.framework */; };
+		0B4935911AA11059006DC324 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4935901AA11059006DC324 /* SystemConfiguration.framework */; };
+		0B49359D1AA113E8006DC324 /* FatsoRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49359C1AA113E8006DC324 /* FatsoRun.swift */; };
+		0B4935BD1AA11A7C006DC324 /* TSAppEventSourceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935A21AA11A7C006DC324 /* TSAppEventSourceImpl.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations"; }; };
+		0B4935BE1AA11A7C006DC324 /* TSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935A41AA11A7C006DC324 /* TSConfig.m */; };
+		0B4935BF1AA11A7C006DC324 /* TSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935A61AA11A7C006DC324 /* TSCore.m */; };
+		0B4935C01AA11A7C006DC324 /* TSCoreListenerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935A91AA11A7C006DC324 /* TSCoreListenerImpl.m */; };
+		0B4935C11AA11A7C006DC324 /* TSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935AC1AA11A7C006DC324 /* TSEvent.m */; };
+		0B4935C21AA11A7C006DC324 /* TSHit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935AF1AA11A7C006DC324 /* TSHit.m */; };
+		0B4935C31AA11A7C006DC324 /* TSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935B11AA11A7C006DC324 /* TSLogging.m */; };
+		0B4935C41AA11A7C006DC324 /* TSPlatformImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935B51AA11A7C006DC324 /* TSPlatformImpl.m */; };
+		0B4935C51AA11A7C006DC324 /* TSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935B71AA11A7C006DC324 /* TSResponse.m */; };
+		0B4935C61AA11A7C006DC324 /* TSTapstream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935B91AA11A7C006DC324 /* TSTapstream.m */; };
+		0B4935C71AA11A7C006DC324 /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935BB1AA11A7C006DC324 /* TSUtils.m */; };
+		0B4935C91AA11AA2006DC324 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4935C81AA11AA2006DC324 /* AdSupport.framework */; };
+		0B4935CD1AA12958006DC324 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4935CC1AA12958006DC324 /* GameKit.framework */; };
+		0B7F66851AA26C4A00D8A9F6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7F66841AA26C4A00D8A9F6 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +51,87 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0B1CC95F1AA1E095004D0E70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				0B1CC9601AA1E0A9004D0E70 /* APIKeys.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0B1CC9441AA12E29004D0E70 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0B1CC9461AA12E3C004D0E70 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0B1CC9481AA12E4C004D0E70 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0B1CC94B1AA12E6D004D0E70 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		0B1CC94C1AA12E6D004D0E70 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		0B1CC94D1AA12E6D004D0E70 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		0B1CC94E1AA12E6D004D0E70 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		0B1CC94F1AA12E6D004D0E70 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		0B1CC9501AA12E6D004D0E70 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		0B1CC9511AA12E6D004D0E70 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		0B1CC9521AA12E6D004D0E70 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		0B1CC9531AA12E6D004D0E70 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		0B1CC9541AA12E6D004D0E70 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		0B1CC9551AA12E6D004D0E70 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		0B1CC9561AA12E6D004D0E70 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		0B1CC95D1AA1DFFC004D0E70 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
 		0B4935471AA1095C006DC324 /* FatsoRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatsoRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B49354B1AA1095C006DC324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B49354C1AA1095C006DC324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B49354E1AA1095C006DC324 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		0B4935501AA1095C006DC324 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		0B4935521AA1095C006DC324 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		0B4935551AA1095C006DC324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0B4935571AA1095C006DC324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0B49355A1AA1095C006DC324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0B4935601AA1095D006DC324 /* FatsoRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatsoRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4935651AA1095D006DC324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B4935661AA1095D006DC324 /* FatsoRunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatsoRunTests.swift; sourceTree = "<group>"; };
+		0B4935711AA10A0A006DC324 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B4935721AA10A0A006DC324 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0B4935731AA10A0A006DC324 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0B4935791AA10AA4006DC324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B49357B1AA10AA4006DC324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B49357C1AA10AA4006DC324 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0B49357D1AA10AA4006DC324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B4935831AA10AEE006DC324 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B4935861AA10B45006DC324 /* FatsoRunTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatsoRunTests.swift; sourceTree = "<group>"; };
+		0B4935891AA10B4D006DC324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B49358B1AA1102F006DC324 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		0B49358C1AA1102F006DC324 /* libFlurry_6.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.2.0.a; sourceTree = "<group>"; };
+		0B49358E1AA11051006DC324 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0B4935901AA11059006DC324 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0B49359A1AA11234006DC324 /* FatsoRun-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FatsoRun-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B49359C1AA113E8006DC324 /* FatsoRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatsoRun.swift; sourceTree = "<group>"; };
+		0B49359F1AA11A7C006DC324 /* TSApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSApi.h; sourceTree = "<group>"; };
+		0B4935A01AA11A7C006DC324 /* TSAppEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppEventSource.h; sourceTree = "<group>"; };
+		0B4935A11AA11A7C006DC324 /* TSAppEventSourceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppEventSourceImpl.h; sourceTree = "<group>"; };
+		0B4935A21AA11A7C006DC324 /* TSAppEventSourceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppEventSourceImpl.m; sourceTree = "<group>"; };
+		0B4935A31AA11A7C006DC324 /* TSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSConfig.h; sourceTree = "<group>"; };
+		0B4935A41AA11A7C006DC324 /* TSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSConfig.m; sourceTree = "<group>"; };
+		0B4935A51AA11A7C006DC324 /* TSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCore.h; sourceTree = "<group>"; };
+		0B4935A61AA11A7C006DC324 /* TSCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCore.m; sourceTree = "<group>"; };
+		0B4935A71AA11A7C006DC324 /* TSCoreListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoreListener.h; sourceTree = "<group>"; };
+		0B4935A81AA11A7C006DC324 /* TSCoreListenerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoreListenerImpl.h; sourceTree = "<group>"; };
+		0B4935A91AA11A7C006DC324 /* TSCoreListenerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCoreListenerImpl.m; sourceTree = "<group>"; };
+		0B4935AA1AA11A7C006DC324 /* TSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDelegate.h; sourceTree = "<group>"; };
+		0B4935AB1AA11A7C006DC324 /* TSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSEvent.h; sourceTree = "<group>"; };
+		0B4935AC1AA11A7C006DC324 /* TSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSEvent.m; sourceTree = "<group>"; };
+		0B4935AD1AA11A7C006DC324 /* TSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHelpers.h; sourceTree = "<group>"; };
+		0B4935AE1AA11A7C006DC324 /* TSHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHit.h; sourceTree = "<group>"; };
+		0B4935AF1AA11A7C006DC324 /* TSHit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHit.m; sourceTree = "<group>"; };
+		0B4935B01AA11A7C006DC324 /* TSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogging.h; sourceTree = "<group>"; };
+		0B4935B11AA11A7C006DC324 /* TSLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLogging.m; sourceTree = "<group>"; };
+		0B4935B21AA11A7C006DC324 /* TSLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogLevel.h; sourceTree = "<group>"; };
+		0B4935B31AA11A7C006DC324 /* TSPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPlatform.h; sourceTree = "<group>"; };
+		0B4935B41AA11A7C006DC324 /* TSPlatformImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPlatformImpl.h; sourceTree = "<group>"; };
+		0B4935B51AA11A7C006DC324 /* TSPlatformImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPlatformImpl.m; sourceTree = "<group>"; };
+		0B4935B61AA11A7C006DC324 /* TSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSResponse.h; sourceTree = "<group>"; };
+		0B4935B71AA11A7C006DC324 /* TSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSResponse.m; sourceTree = "<group>"; };
+		0B4935B81AA11A7C006DC324 /* TSTapstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTapstream.h; sourceTree = "<group>"; };
+		0B4935B91AA11A7C006DC324 /* TSTapstream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTapstream.m; sourceTree = "<group>"; };
+		0B4935BA1AA11A7C006DC324 /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
+		0B4935BB1AA11A7C006DC324 /* TSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUtils.m; sourceTree = "<group>"; };
+		0B4935BC1AA11A7C006DC324 /* TSWordOfMouthDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWordOfMouthDelegate.h; sourceTree = "<group>"; };
+		0B4935C81AA11AA2006DC324 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0B4935CC1AA12958006DC324 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		0B7F66841AA26C4A00D8A9F6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +139,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7F66851AA26C4A00D8A9F6 /* MessageUI.framework in Frameworks */,
+				0B1CC9491AA12E4C004D0E70 /* libsqlite3.dylib in Frameworks */,
+				0B1CC9471AA12E3C004D0E70 /* libz.dylib in Frameworks */,
+				0B1CC9451AA12E29004D0E70 /* CoreData.framework in Frameworks */,
+				0B1CC9581AA12E6D004D0E70 /* libGoogleAnalyticsServices.a in Frameworks */,
+				0B4935C91AA11AA2006DC324 /* AdSupport.framework in Frameworks */,
+				0B1CC9571AA12E6D004D0E70 /* libAdIdAccess.a in Frameworks */,
+				0B4935911AA11059006DC324 /* SystemConfiguration.framework in Frameworks */,
+				0B49358F1AA11051006DC324 /* Security.framework in Frameworks */,
+				0B49358D1AA1102F006DC324 /* libFlurry_6.2.0.a in Frameworks */,
+				0B4935CD1AA12958006DC324 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +163,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1CC94A1AA12E6D004D0E70 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				0B1CC94B1AA12E6D004D0E70 /* GAI.h */,
+				0B1CC94C1AA12E6D004D0E70 /* GAIDictionaryBuilder.h */,
+				0B1CC94D1AA12E6D004D0E70 /* GAIEcommerceFields.h */,
+				0B1CC94E1AA12E6D004D0E70 /* GAIEcommerceProduct.h */,
+				0B1CC94F1AA12E6D004D0E70 /* GAIEcommerceProductAction.h */,
+				0B1CC9501AA12E6D004D0E70 /* GAIEcommercePromotion.h */,
+				0B1CC9511AA12E6D004D0E70 /* GAIFields.h */,
+				0B1CC9521AA12E6D004D0E70 /* GAILogger.h */,
+				0B1CC9531AA12E6D004D0E70 /* GAITrackedViewController.h */,
+				0B1CC9541AA12E6D004D0E70 /* GAITracker.h */,
+				0B1CC9551AA12E6D004D0E70 /* libAdIdAccess.a */,
+				0B1CC9561AA12E6D004D0E70 /* libGoogleAnalyticsServices.a */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
 		0B49353E1AA1095C006DC324 = {
 			isa = PBXGroup;
 			children = (
@@ -81,41 +203,157 @@
 		0B4935491AA1095C006DC324 /* FatsoRun */ = {
 			isa = PBXGroup;
 			children = (
-				0B49354C1AA1095C006DC324 /* AppDelegate.swift */,
-				0B49354E1AA1095C006DC324 /* GameScene.sks */,
-				0B4935501AA1095C006DC324 /* GameScene.swift */,
-				0B4935521AA1095C006DC324 /* GameViewController.swift */,
-				0B4935541AA1095C006DC324 /* Main.storyboard */,
-				0B4935571AA1095C006DC324 /* Images.xcassets */,
-				0B4935591AA1095C006DC324 /* LaunchScreen.xib */,
-				0B49354A1AA1095C006DC324 /* Supporting Files */,
+				0B4935701AA10A0A006DC324 /* Classes */,
+				0B4935771AA10AA4006DC324 /* Resources */,
+				0B4935821AA10AEE006DC324 /* Support */,
 			);
 			path = FatsoRun;
-			sourceTree = "<group>";
-		};
-		0B49354A1AA1095C006DC324 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B49354B1AA1095C006DC324 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0B4935631AA1095D006DC324 /* FatsoRunTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B4935661AA1095D006DC324 /* FatsoRunTests.swift */,
-				0B4935641AA1095D006DC324 /* Supporting Files */,
+				0B4935851AA10B45006DC324 /* Classes */,
+				0B4935881AA10B4D006DC324 /* Support */,
 			);
 			path = FatsoRunTests;
 			sourceTree = "<group>";
 		};
-		0B4935641AA1095D006DC324 /* Supporting Files */ = {
+		0B4935701AA10A0A006DC324 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0B4935651AA1095D006DC324 /* Info.plist */,
+				0B49359B1AA113CF006DC324 /* Common */,
+				0B4935961AA11130006DC324 /* Util */,
+				0B4935711AA10A0A006DC324 /* AppDelegate.swift */,
+				0B4935721AA10A0A006DC324 /* GameScene.swift */,
+				0B4935731AA10A0A006DC324 /* GameViewController.swift */,
 			);
-			name = "Supporting Files";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0B4935771AA10AA4006DC324 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B4935781AA10AA4006DC324 /* LaunchScreen.xib */,
+				0B49357A1AA10AA4006DC324 /* Main.storyboard */,
+				0B49357C1AA10AA4006DC324 /* GameScene.sks */,
+				0B49357D1AA10AA4006DC324 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B4935821AA10AEE006DC324 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0B4935921AA11061006DC324 /* Frameworks */,
+				0B4935931AA11076006DC324 /* Libraries */,
+				0B4935831AA10AEE006DC324 /* Info.plist */,
+				0B1CC95D1AA1DFFC004D0E70 /* APIKeys.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0B4935851AA10B45006DC324 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0B4935861AA10B45006DC324 /* FatsoRunTests.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0B4935881AA10B4D006DC324 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0B4935891AA10B4D006DC324 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0B49358A1AA1102F006DC324 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				0B49358B1AA1102F006DC324 /* Flurry.h */,
+				0B49358C1AA1102F006DC324 /* libFlurry_6.2.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		0B4935921AA11061006DC324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7F66841AA26C4A00D8A9F6 /* MessageUI.framework */,
+				0B4935C81AA11AA2006DC324 /* AdSupport.framework */,
+				0B1CC9441AA12E29004D0E70 /* CoreData.framework */,
+				0B4935CC1AA12958006DC324 /* GameKit.framework */,
+				0B1CC9481AA12E4C004D0E70 /* libsqlite3.dylib */,
+				0B1CC9461AA12E3C004D0E70 /* libz.dylib */,
+				0B49358E1AA11051006DC324 /* Security.framework */,
+				0B4935901AA11059006DC324 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B4935931AA11076006DC324 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0B1CC94A1AA12E6D004D0E70 /* GoogleAnalytics */,
+				0B49358A1AA1102F006DC324 /* Flurry */,
+				0B49359E1AA11A7C006DC324 /* Tapstream */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		0B4935961AA11130006DC324 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0B49359A1AA11234006DC324 /* FatsoRun-Bridging-Header.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0B49359B1AA113CF006DC324 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0B49359C1AA113E8006DC324 /* FatsoRun.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0B49359E1AA11A7C006DC324 /* Tapstream */ = {
+			isa = PBXGroup;
+			children = (
+				0B49359F1AA11A7C006DC324 /* TSApi.h */,
+				0B4935A01AA11A7C006DC324 /* TSAppEventSource.h */,
+				0B4935A11AA11A7C006DC324 /* TSAppEventSourceImpl.h */,
+				0B4935A21AA11A7C006DC324 /* TSAppEventSourceImpl.m */,
+				0B4935A31AA11A7C006DC324 /* TSConfig.h */,
+				0B4935A41AA11A7C006DC324 /* TSConfig.m */,
+				0B4935A51AA11A7C006DC324 /* TSCore.h */,
+				0B4935A61AA11A7C006DC324 /* TSCore.m */,
+				0B4935A71AA11A7C006DC324 /* TSCoreListener.h */,
+				0B4935A81AA11A7C006DC324 /* TSCoreListenerImpl.h */,
+				0B4935A91AA11A7C006DC324 /* TSCoreListenerImpl.m */,
+				0B4935AA1AA11A7C006DC324 /* TSDelegate.h */,
+				0B4935AB1AA11A7C006DC324 /* TSEvent.h */,
+				0B4935AC1AA11A7C006DC324 /* TSEvent.m */,
+				0B4935AD1AA11A7C006DC324 /* TSHelpers.h */,
+				0B4935AE1AA11A7C006DC324 /* TSHit.h */,
+				0B4935AF1AA11A7C006DC324 /* TSHit.m */,
+				0B4935B01AA11A7C006DC324 /* TSLogging.h */,
+				0B4935B11AA11A7C006DC324 /* TSLogging.m */,
+				0B4935B21AA11A7C006DC324 /* TSLogLevel.h */,
+				0B4935B31AA11A7C006DC324 /* TSPlatform.h */,
+				0B4935B41AA11A7C006DC324 /* TSPlatformImpl.h */,
+				0B4935B51AA11A7C006DC324 /* TSPlatformImpl.m */,
+				0B4935B61AA11A7C006DC324 /* TSResponse.h */,
+				0B4935B71AA11A7C006DC324 /* TSResponse.m */,
+				0B4935B81AA11A7C006DC324 /* TSTapstream.h */,
+				0B4935B91AA11A7C006DC324 /* TSTapstream.m */,
+				0B4935BA1AA11A7C006DC324 /* TSUtils.h */,
+				0B4935BB1AA11A7C006DC324 /* TSUtils.m */,
+				0B4935BC1AA11A7C006DC324 /* TSWordOfMouthDelegate.h */,
+			);
+			path = Tapstream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +363,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B49356A1AA1095D006DC324 /* Build configuration list for PBXNativeTarget "FatsoRun" */;
 			buildPhases = (
+				0B1CC95F1AA1E095004D0E70 /* CopyFiles */,
+				0B1CC9591AA1D8FC004D0E70 /* ShellScript */,
 				0B4935431AA1095C006DC324 /* Sources */,
 				0B4935441AA1095C006DC324 /* Frameworks */,
 				0B4935451AA1095C006DC324 /* Resources */,
@@ -167,6 +407,15 @@
 				TargetAttributes = {
 					0B4935461AA1095C006DC324 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 44FUJ9823K;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					0B49355F1AA1095D006DC324 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -198,10 +447,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B49355B1AA1095C006DC324 /* LaunchScreen.xib in Resources */,
-				0B4935581AA1095C006DC324 /* Images.xcassets in Resources */,
-				0B49354F1AA1095C006DC324 /* GameScene.sks in Resources */,
-				0B4935561AA1095C006DC324 /* Main.storyboard in Resources */,
+				0B49357E1AA10AA4006DC324 /* LaunchScreen.xib in Resources */,
+				0B4935811AA10AA4006DC324 /* Images.xcassets in Resources */,
+				0B4935801AA10AA4006DC324 /* GameScene.sks in Resources */,
+				0B49357F1AA10AA4006DC324 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +463,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B1CC9591AA1D8FC004D0E70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "# An API keys script written by Patrick Gibson (@patr1ck) and Christopher Bowns (@cbowns)\n# This script sets API keys in your app's Info.plist from an .api_keys file you keep in your home directory (~/.api_keys)\n# This allows you to not check API keys into your source control system,\n# or for different developers to use different keys without needing to patch their working copies.\n\n# You can move your .api_keys file:\napi_keys_file = \"/Users/#{ENV['USER']}/.api_keys\"\n\n# Declare your app-specific keys' names here, like so:\n# '.api_keys_key' => 'Info.plist_key'\nkeys = {\n    'FATSORUN_FLURRY_API_KEY' => 'FlurryAPIKey',\n    'FATSORUN_GOOGLE_ANALYTICS_ACCOUNT' => 'GoogleAnalyticsAccount',\n    'FATSORUN_TAPSTREAM_ACCOUNT' => 'TapstreamAccount',\n    'FATSORUN_TAPSTREAM_SECRET' => 'TapstreamSecret',\n}\n\n# Fail if not run from Xcode\nraise \"Must be run from Xcode\" unless ENV['XCODE_VERSION_ACTUAL']\n\ninfo_plist = \"#{ENV['BUILT_PRODUCTS_DIR']}/FatsoRun.app/APIKeys.plist\"\n\n# When building for the device, the plist is already converted to binary, so change it back.\n`plutil -convert xml1 #{info_plist}`\n\n# Load our keys from $HOME/.api_keys\napi_keys = IO.readlines(api_keys_file)\napi_keys.each do |line|\n# puts \"line is #{line}\"\nif line.to_s.strip.length != 0 # Skip nil or empty or whitespace lines\nkey, value = line.split(\"=\")\nputs \"Loading #{key} = #{value}\"\nENV[key] = value.strip!\nend\nend\n\n# Open Info.plist and set the appropriate value to the revision hash\nlines = IO.readlines(info_plist).join\nkeys.each do |apikey, infokey|\nlines.gsub! /(<key>#{infokey}<\\/key>\\n\\t<string>).*?(<\\/string>)/, \"\\\\1#{ENV[apikey]}\\\\2\"\nend\n\n# Overwrite the original Info.plist file with our updated version\nFile.open(info_plist, 'w') {|f| f.puts lines}\n\n# Convert back to binary1 if we're building for the device\nif ENV['EFFECTIVE_PLATFORM_NAME'] == \"-iphonesimulator\" then\n`plutil -convert xml1 #{info_plist}`\nelse\n`plutil -convert binary1 #{info_plist}`\nend\n\n# Report to the user\nputs \"Updated the API Keys\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B4935431AA1095C006DC324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4935511AA1095C006DC324 /* GameScene.swift in Sources */,
-				0B4935531AA1095C006DC324 /* GameViewController.swift in Sources */,
-				0B49354D1AA1095C006DC324 /* AppDelegate.swift in Sources */,
+				0B4935BE1AA11A7C006DC324 /* TSConfig.m in Sources */,
+				0B4935751AA10A0A006DC324 /* GameScene.swift in Sources */,
+				0B4935761AA10A0A006DC324 /* GameViewController.swift in Sources */,
+				0B4935BF1AA11A7C006DC324 /* TSCore.m in Sources */,
+				0B4935C61AA11A7C006DC324 /* TSTapstream.m in Sources */,
+				0B4935C31AA11A7C006DC324 /* TSLogging.m in Sources */,
+				0B4935C11AA11A7C006DC324 /* TSEvent.m in Sources */,
+				0B4935C71AA11A7C006DC324 /* TSUtils.m in Sources */,
+				0B4935741AA10A0A006DC324 /* AppDelegate.swift in Sources */,
+				0B4935C21AA11A7C006DC324 /* TSHit.m in Sources */,
+				0B4935C51AA11A7C006DC324 /* TSResponse.m in Sources */,
+				0B49359D1AA113E8006DC324 /* FatsoRun.swift in Sources */,
+				0B4935C41AA11A7C006DC324 /* TSPlatformImpl.m in Sources */,
+				0B4935BD1AA11A7C006DC324 /* TSAppEventSourceImpl.m in Sources */,
+				0B4935C01AA11A7C006DC324 /* TSCoreListenerImpl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4935671AA1095D006DC324 /* FatsoRunTests.swift in Sources */,
+				0B4935871AA10B45006DC324 /* FatsoRunTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +521,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B4935541AA1095C006DC324 /* Main.storyboard */ = {
+		0B4935781AA10AA4006DC324 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0B4935551AA1095C006DC324 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0B4935591AA1095C006DC324 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B49355A1AA1095C006DC324 /* Base */,
+				0B4935791AA10AA4006DC324 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0B49357A1AA10AA4006DC324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B49357B1AA10AA4006DC324 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -334,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,9 +623,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FatsoRun/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FatsoRun/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FatsoRun/Support/Flurry",
+					"$(PROJECT_DIR)/FatsoRun/Support/GoogleAnalytics",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FatsoRun/Classes/Util/FatsoRun-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +644,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FatsoRun/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FatsoRun/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FatsoRun/Support/Flurry",
+					"$(PROJECT_DIR)/FatsoRun/Support/GoogleAnalytics",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FatsoRun/Classes/Util/FatsoRun-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -374,7 +672,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FatsoRunTests/Info.plist;
+				INFOPLIST_FILE = FatsoRunTests/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatsoRun.app/FatsoRun";
@@ -389,7 +687,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FatsoRunTests/Info.plist;
+				INFOPLIST_FILE = FatsoRunTests/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatsoRun.app/FatsoRun";
@@ -415,6 +713,7 @@
 				0B49356C1AA1095D006DC324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B49356D1AA1095D006DC324 /* Build configuration list for PBXNativeTarget "FatsoRunTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +722,7 @@
 				0B49356F1AA1095D006DC324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

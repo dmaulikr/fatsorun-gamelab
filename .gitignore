@@ -1,0 +1,23 @@
+# xcode noise
+build/
+dist/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdatad/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+profile
+
+# automated testing & code coverage
+test-reports/
+coverage/
+
+# osx noise
+.LSOverride
+*.swp
+.DS_Store
+
+# parse
+parse/
